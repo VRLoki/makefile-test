@@ -1,4 +1,5 @@
-CC = /usr/local/bin/gcc-13
+#CC = /usr/local/bin/gcc-13
+CC = gcc
 CFLAGS = -Wall -pedantic -Werror -Wextra -std=gnu89
 
 all: 0-isuper 1-isdigit
